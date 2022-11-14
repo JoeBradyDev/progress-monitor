@@ -45,7 +45,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Pi Monitor</title>
+        <title>Progress Monitor</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <DefaultLayout>
