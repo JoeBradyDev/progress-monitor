@@ -2,28 +2,6 @@ import { ITimer } from "../Timer/models";
 
 export const INITIAL_TIMERS: ITimer[] = [
   {
-    slug: "work-day",
-    title: "Work Day",
-    type: "date",
-    showTime: true,
-    startDate: new Date("2022-07-05 12:30:00.000Z"),
-    endDate: new Date("2022-07-05 21:30:00.000Z"),
-  },
-  {
-    slug: "work-week",
-    title: "Work Week",
-    type: "date",
-    startDate: new Date("2022-07-08 12:30:00.000Z"),
-    endDate: new Date("2022-07-08 21:30:00.000Z"),
-  },
-  {
-    slug: "month",
-    title: "Month",
-    type: "date",
-    startDate: new Date("2022-06-01 12:30:00.000Z"),
-    endDate: new Date("2022-06-30 21:30:00.000Z"),
-  },
-  {
     slug: "year",
     title: "Year",
     type: "date",
@@ -36,13 +14,6 @@ export const INITIAL_TIMERS: ITimer[] = [
     type: "date",
     startDate: new Date("2022-07-11 12:30:00.000Z"),
     endDate: new Date("2022-08-19 21:30:00.000Z"),
-  },
-  {
-    slug: "wgu-term",
-    title: "WGU Term",
-    type: "date",
-    startDate: new Date("2022-06-01 00:00:00.000Z"),
-    endDate: new Date("2022-11-30 00:00:00.000Z"),
   },
   {
     slug: "wgu-degree",
