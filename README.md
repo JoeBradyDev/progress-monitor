@@ -76,4 +76,5 @@ This software has various known issues inluding:
 * Use atomic commits with Angular-style descriptive comments during the development of the project.
 * Improve accessibility.
 * Don't hard-code initial values in local storage. This was done to simplify development for a personal project.
+* Use Jest and Cypress for automated testing.
 
