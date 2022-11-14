@@ -10,10 +10,10 @@ export const INITIAL_TIMERS: ITimer[] = [
   },
   {
     slug: "sprint",
-    title: "Sprint 22-3",
+    title: "Sprint 22-5",
     type: "date",
-    startDate: new Date("2022-07-11 12:30:00.000Z"),
-    endDate: new Date("2022-08-19 21:30:00.000Z"),
+    startDate: new Date("2022-11-17 12:30:00.000Z"),
+    endDate: new Date("2022-12-16 21:30:00.000Z"),
   },
   {
     slug: "wgu-degree",
@@ -21,7 +21,7 @@ export const INITIAL_TIMERS: ITimer[] = [
     type: "counter",
     min: 0,
     max: 122,
-    value: 102,
+    value: 85,
   },
 ];
 
